@@ -1,5 +1,39 @@
 # Changelog
 
+## 0.2.18 (2026-03-03)
+
+- docs: update README with IBM Bob server type from 'http' to 'streamable-http'
+- chore: remove unused import in list_dataset_resources
+- clean: remove non-IDE-agnostic skills
+- docs: add kiro IDE instructions
+- docs: add Mistral instructions to README
+- docs: fix minor issue in ordering
+- docs: fix minor issue in ordering in README
+- docs: fix minor ordering issue in README
+- docs: fix minor README indentation typo
+- docs: fix typo
+- docs: improve contributing guidelines in README
+- docs: improve README
+- docs: minor README indentation fix
+- docs: reorder env vars to keep LOG_LEVEL last
+- docs: update README.md
+- docs: enhance README with image cover
+- feat: add LOG_LEVEL support in main logging config
+- feat(monitoring): add Sentry error and performance tracking
+- fix: address review feedback for LOG_LEVEL
+- fix: align docker-compose env with DATAGOUV_ENV
+- fix: enable stateless HTTP to fix "Session not found" for most MCP clients
+- fix: normalize env var name
+- fix: normalize env var names
+- fix: Remove 'transport' field for the Gemini CLI configuration
+- fix: safer default for MCP_ENV
+- fix: use /health for docker compose healthcheck
+- fix: validate filter and sort options in query_resource_data
+- perf: remove N+1 calls in list_dataset_resources
+- perf: use bytearray buffering in resource downloader
+- refactor: rename DATAGOUV_ENV to DATAGOUV_API_ENV
+- docs: update README with HuggingChat server setup instructions
+- docs: update README with IBM Bob MCP configuration details
 ## 0.2.17 (2026-02-26)
 
 - docs: reformat ChatGPT section
