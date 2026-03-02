@@ -12,7 +12,10 @@ from mcp.server.fastmcp import FastMCP
 from mcp.server.transport_security import TransportSecuritySettings
 
 from helpers.matomo import track_matomo
+from helpers.sentry import init_sentry
 from tools import register_tools
+
+init_sentry()
 
 # Configure logging
 LOGGER_NAME = "datagouv_mcp"
