@@ -8,6 +8,7 @@ RUN apt-get update -y && \
 # Install dependencies
 WORKDIR /app
 ADD . /app/
+ENV SETUPTOOLS_SCM_PRETEND_VERSION=0.2.21
 RUN uv sync --frozen
 
 # Expose port (default 8000, configurable via MCP_PORT env var)
